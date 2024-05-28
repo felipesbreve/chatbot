@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "saudação",
+      "patterns": [
+        "Oi",
+        "Ei",
+        "Como vai você",
+        "Tem alguém aí?",
+        "Olá",
+        "Bom dia"
+      ],
+      "responses": [
+        "Ei :-)",
+        "Olá, obrigado por visitar",
+        "Oi, como posso te ajudar?",
+        "Oi, como posso ajudar?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até mais tarde", "Adeus"],
+      "responses": [
+        "Até mais tarde, obrigado pela visita",
+        "Tenha um bom dia",
+        "Tchau! Volte logo."
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["Obrigado", "Obrigado", "Isso é útil", "Muito obrigado!"],
+      "responses": ["Feliz em ajudar!", "A qualquer hora!", "Meu prazer"]
+    },
+    {
+      "tag": "itens",
+      "patterns": [
+        "Quais itens você tem?",
+        "Quais tipos de itens existem?",
+        "O que você vende?"
+      ],
+      "responses": [
+        "Nós vendemos café e chá",
+        "Nós temos café e chá"
+      ]
+    },
+    {
+      "tag": "pagamentos",
+      "patterns": [
+        "Você aceita cartões de crédito?",
+        "Você aceita Mastercard?",
+        "Posso pagar com Paypal?",
+        "Vocês aceitam apenas dinheiro?"
+      ],
+      "responses": [
+        "Aceitamos VISA, Mastercard e Paypal",
+        "Aceitamos a maioria dos principais cartões de crédito e Paypal"
+      ]
+    },
+    {
+      "tag": "entrega",
+      "patterns": [
+        "Quanto tempo demora a entrega?",
+        "Quanto tempo demora o envio?",
+        "Quando recebo minha entrega?"
+      ],
+      "responses": [
+        "A entrega leva de 15 a 30 minutos",
+        "O envio leva de 10 a 20 minutos"
+      ]
+    },
+    {
+      "tag": "engraçado",
+      "patterns": [
+        "Conta uma piada!",
+        "Me conta algo engraçado!",
+        "Você conhece uma piada?"
+      ],
+      "responses": [
+        "Por que o hipster queimou a boca? Ele tomou o café antes que esfriasse.",
+        "O que o búfalo disse quando seu filho foi para a faculdade? Bisão."
+      ]
+    }
+  ]
+}
